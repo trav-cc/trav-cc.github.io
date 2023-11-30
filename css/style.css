@@ -148,7 +148,7 @@ img {
   margin: auto;
 }
 
-footer div {
+footer > div { /* footer div does not work, alternative call to div */
   height: 100%;
   font-family: 'DM Sans', sans-serif;
   font-size: 14px;
